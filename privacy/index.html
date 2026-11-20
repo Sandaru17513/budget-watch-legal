@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy | Budget Watch</title>
-<meta name="description" content="Budget Watch Privacy Policy. Last updated 18 November 2026.">
+<meta name="description" content="Budget Watch Privacy Policy. Last updated 20 November 2026.">
 <style>
 :root{color-scheme:light dark;--bg:#fff;--fg:#1c1c1e;--muted:#636366;--line:#e5e5ea;--link:#0a6b3d}
 @media (prefers-color-scheme:dark){:root{--bg:#121214;--fg:#f2f2f7;--muted:#a1a1a6;--line:#2c2c2e;--link:#5ad58f}}
@@ -25,28 +25,35 @@ ul.docs{padding-left:1.2rem}
 <main>
 <p class="muted"><a href="../">Budget Watch</a></p>
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: 18 November 2026</p>
+<p class="muted">Last updated: 20 November 2026</p>
 <section>
 <h2>Who we are</h2>
 <p>Budget Watch is a personal budgeting app provided by H. Sandaru Bhagya Senarath, an individual developer (&quot;we&quot;, &quot;us&quot;). This policy explains what information the app handles, where it is kept and what choices you have.</p>
 </section>
 <section>
 <h2>Information we collect</h2>
-<p>Account details: you sign in with Google only, through Supabase Auth. The app reads your name, email address and profile picture from your Google profile, plus a display name you can set yourself.</p>
+<p>No account with us: the app has no sign-in of its own and does not ask for your email address. You can set a display name, which is kept on your phone.</p>
+<p>Google account (optional): only if you choose to back up to Google Drive, you sign in with Google. The app then knows the email address, name and photo of that Google account, which it shows in the app and does not send to us.</p>
 <p>Your budgeting data: transactions (title, amount, type, category, date, note, status and any linked goal or recurring rule), budgets, goals, recurring rules, custom categories and balance adjustments.</p>
 <p>We do not collect your location or contacts, and the app never asks for payment card or bank login details.</p>
 </section>
 <section>
 <h2>Where your data is stored</h2>
-<p>In the cloud (Supabase): your budgeting data listed above. It is protected by row-level security so that only your account can read it, and it is deleted when you delete your account.</p>
-<p>On your device only: your sign-in session, your settings (currency, appearance, reminders, hidden amounts and icons) and pending detected items (see below). This data is not sent to a server.</p>
-<p>Android backups are disabled for the app, so this on-device data is not copied to a cloud backup.</p>
+<p>Only on your phone: your budgeting data listed above, your display name, your settings (currency, appearance, reminders, hidden amounts and icons) and pending detected items (see below). We have no account system and no server for it. We do not receive or store any of it.</p>
+<p>Android&#39;s automatic backup is disabled for the app. If you uninstall the app or lose your phone, the data is gone unless you made a backup to your own Google Drive (see below). We cannot recover it.</p>
+</section>
+<section>
+<h2>Backup to Google Drive (optional)</h2>
+<p>If you connect a Google account, the app saves a backup of your data to your own Google Drive, automatically about once a day when something changed, and when you tap Back up now. The app asks Google only for the &quot;app data folder&quot; permission (drive.appdata): a private folder in your Drive that only Budget Watch can open. The app cannot see your other Drive files.</p>
+<p>The backup is one file with your budgeting data listed above, plus your settings and your notification detection choices (which apps are allowed and their nicknames). The Drive file is also tagged with a random id of the phone that made it and the phone&#39;s model name (for example SM-A145F), so the app can warn you before one phone replaces another phone&#39;s backup. Pending detected items and the text of notifications are not included. The backup is stored by Google in your Drive, and Google&#39;s own terms and privacy policy apply to it. We cannot access it.</p>
+<p>You can restore the backup on a phone where you connect the same Google account. Restoring replaces the data on that phone.</p>
+<p>To delete the backup, open Profile &gt; Connections &gt; Delete Drive backup, or open your Google Account or Google Drive settings and remove the app&#39;s hidden data under Manage apps. Disconnect in Connections stops the app from reaching your Drive, and Erase all data also disconnects Google. Neither deletes the backup file that is already in your Drive.</p>
 </section>
 <section>
 <h2>Notification access (optional)</h2>
 <p>Transaction detection is optional and works only if you grant notification access in your Android settings. You can turn it off at any time.</p>
 <p>To let you choose which apps to allow, the app notes the package name and label of apps that post notifications. It reads the full text of a notification only from apps you have allowed.</p>
-<p>That text is analysed on your device to look for a possible transaction. Up to 500 characters of it are kept on your device as a pending item. The text is removed after 7 days or when you sign out. It is never sent to a server. Only a transaction that you review and save is stored in the cloud.</p>
+<p>That text is analysed on your device to look for a possible transaction. Up to 500 characters of it are kept on your device as a pending item. The text is removed after 7 days or when you erase all data. It is never sent to a server. A transaction that you review and save is stored only on your phone, like your other entries.</p>
 </section>
 <section>
 <h2>Receipt scanning and camera</h2>
@@ -58,18 +65,18 @@ ul.docs{padding-left:1.2rem}
 </section>
 <section>
 <h2>Third parties</h2>
-<p>Supabase hosts the database and handles sign-in. Google provides Google sign-in and the ML Kit text recognition model.</p>
+<p>Google provides the ML Kit text recognition model used for receipt scanning, and Google Sign-In and Google Drive if you use backup.</p>
 <p>The app has no analytics, no crash reporting and no advertising. We do not sell your data or share it for marketing.</p>
 </section>
 <section>
 <h2>Your rights and choices</h2>
 <p>You may ask to access your data, correct it, delete it or receive a copy in a portable form. You can edit or delete your transactions and other entries in the app at any time.</p>
-<p>To delete your account and the cloud data linked to it, open Profile and choose Delete Account.</p>
-<p>The app has no built-in data export. To request access to or a copy of your data, contact us at sandarusenarath.apps@gmail.com.</p>
+<p>To delete all your data, open Profile &gt; Privacy and security &gt; Erase all data. This removes everything the app stores on your phone. A backup in your Google Drive is deleted separately (see Backup to Google Drive).</p>
+<p>We hold no copy of your data, so we cannot access, correct, delete or export it for you. The app has no built-in data export. For any question, contact us at sandarusenarath.apps@gmail.com.</p>
 </section>
 <section>
 <h2>Data retention</h2>
-<p>Cloud data is kept until you delete it or delete your account. Pending detected items on your device are removed after 7 days or when you sign out.</p>
+<p>Your data stays on your phone until you delete it, erase all data or uninstall the app. A Google Drive backup stays in your Drive until you delete it. Pending detected items are removed after 7 days or when you erase all data.</p>
 </section>
 <section>
 <h2>Children</h2>
